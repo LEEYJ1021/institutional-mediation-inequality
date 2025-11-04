@@ -4,7 +4,7 @@ This repository contains the data and code for the paper: "Institutional Mediati
 
 ### Abstract
 
-> Regional and urban development theory often struggles to explain the persistent educational inequalities within rapidly urbanizing nations. This study advances a causal-inference approach to argue that the impact of macroeconomic forces is not uniform but is critically filtered through national institutions. Applying a Double Machine Learning (DML) framework to subnational panel data from Chile and Mexico (2000–2024), we test three core hypotheses. We find robust evidence for a universal “Density Disaster” (H1), where unmanaged population concentration strains public services and worsens educational disparity. We also confirm the “Convergence Lever” (H2), establishing targeted public education spending as a powerful tool for reducing rural-urban gaps. Crucially, our analysis reveals a sharp divergence that validates the “Institutional Mediation” thesis (H3): income inequality acts as a catastrophic driver of educational disparity in Chile’s market-oriented system, functioning as an “Inequality Amplifier,” but has a negligible effect in Mexico’s more public-centric system, which acts as a “Partial Buffer.” These findings demonstrate that national institutional design is a primary determinant in how economic shocks translate into regional inequality, offering distinct, evidence-based policy strategies for each country.
+> Regional and urban development theory often struggles to explain the persistent educational inequalities within rapidly urbanizing nations. This study advances a causal-inference approach to argue that the impact of macroeconomic forces is not uniform but is critically filtered through national institutions. Applying a Double Machine Learning (DML) framework to subnational panel data from Chile and Mexico (2000–2024), we test three core hypotheses. We find robust evidence for a universal “Density Disaster” (H1), where unmanaged population concentration strains public services and worsens educational disparity. We also confirm the “Convergence Lever” (H3), establishing targeted public education spending as a powerful tool for reducing rural-urban gaps. Crucially, our analysis reveals a sharp divergence that validates the “Institutional Mediation” thesis, which contains our "Inequality Amplifier" hypothesis (H2): income inequality acts as a catastrophic driver of educational disparity in Chile’s market-oriented system, functioning as an “Inequality Amplifier,” but has a negligible effect in Mexico’s more public-centric system, which acts as a “Partial Buffer.” These findings demonstrate that national institutional design is a primary determinant in how economic shocks translate into regional inequality, offering distinct, evidence-based policy strategies for each country.
 
 **Keywords:** Regional Inequality; Institutional Mediation; Educational Disparity; Causal Inference; Double Machine Learning; Chile and Mexico
 
@@ -122,9 +122,8 @@ Validating Scenario: Convergence Lever
   Chile CATE:   Actual=-0.34, Expected=-0.34 -> ✓ Match
 
 Validating Scenario: Institutional Amplification
-  Mexico CATE:  Actual=0.19, Expected=0.19 -> ✓ Match
+  Mexico CATE:  Actual=1.89, Expected=1.89 -> ✓ Match
   Chile CATE:   Actual=2.94, Expected=2.94 -> ✓ Match
-
 --------------------------------------------------------------------------------
 SUCCESS: All generated results match the key findings in the paper.
 --------------------------------------------------------------------------------
